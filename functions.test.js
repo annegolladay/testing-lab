@@ -15,7 +15,7 @@ describe('math functions', () => {
     }),
     test('Should return multiply or false status', () => {
         expect(multiply(1, 10)).toEqual(10)
-        expect(multiply(0, 0)).toEqual(false)
+        expect(multiply(0, 0)).toBeFalsy()
     }),
     test('divide', () => {
         expect(divide(50, 5)).toEqual(10)
